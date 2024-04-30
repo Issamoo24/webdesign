@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Designing form</title>
+</head>
+<body style="background-color: aqua;">
+    <h1 style="text-align: center;" >Pizza Shop 2.0</h1>
+
+    <form>
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" placeholder="Your Name"><br><br><br>
+    
+      <label for="pizza">Pizza Topping:</label>
+      <select id="pizza" name="pizza">
+        <option value="supreme">Supreme</option>
+        <option value="vegetarian">Vegetarian</option>
+        <option value="hawaiian">Hawaiian</option>
+      </select>
+      <br><br>
+    
+      <label for="sauce">Pizza Sauce:</label>
+      <select id="sauce" name="sauce">
+        <option value="tomato">Tomato</option>
+        </select><br><br>
+    
+      <label for="extras">Optional Extras:</label>
+      <input type="checkbox" id="extracheese" name="extracheese" value="extra cheese">
+      <label for="extracheese">Extra Cheese</label><br>
+      <input type="checkbox" id="glutenfree" name="glutenfree" value="gluten free">
+      <label for="glutenfree">Gluten Free Base</label><br><br>
+    
+      <label for="delivery">Delivery Instructions:</label>
+      <textarea id="delivery" name="delivery" rows="4" cols="50" placeholder="Enter your delivery instructions here"></textarea><br><br>
+    
+      <input type="submit" value="Send my Order">
+    </form>
+      
+</body>
+</html>
